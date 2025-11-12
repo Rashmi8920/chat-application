@@ -4,8 +4,8 @@ import useConversation from '../../zustand/useConversation'
 import Loading from '../../components/Loading'
 import {useAuth} from '../../context/AuthProvider.jsx'
 import { CiMenuFries } from "react-icons/ci";
-import ChatUser from './Chatuser.jsx'
-import TypeSend from './Typesend.jsx'
+import ChatUser from './ChatUser.jsx'
+import TypeSend from './TypeSend.jsx'
 
 const Right = () => {
   const {selectedConversation,setSelectedConversation}=useConversation();
@@ -64,4 +64,5 @@ return(<>
         </div>
       </div>
 </>)
+
 }
